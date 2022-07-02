@@ -17,6 +17,12 @@
         -   Boolean values ( `TRUE` or `FALSE` ) are called **logical**.
         -   Text (or string) values are called **characters**.
 
+- basic operations
+	- modulo
+		- remainder of division
+		- symbol: `%%`
+		- example: `28 %% 6 = 4`
+
 
 # Vectors
 -   creating a vector
@@ -24,25 +30,26 @@
         -   `c()` function
             -   example: `c(a,b,c)`
 -   naming vectors
-        -   `names()`
-            -   `names(some_vector) <- c("Name", "Profession")`
-                -   print
-                    -   ```Name     Profession 
+	-   `names()`
+		-   `names(some_vector) <- c("Name", "Profession")`
+			-   print
+				-   ```Name     Profession 
                         "John Doe" "poker player"```
-        -   names of other vector can be also assigned to a different vector at the same time
-            -   `names(roulette_vector) <- names(poker_vector)`
--   operations on vectors
-	-   sum vectors
-		-   `c(1, 2, 3) + c(4, 5, 6)`
+	-   names of other vector can be also assigned to a different vector at the same time
+		-   `names(roulette_vector) <- names(poker_vector)`
+-   
+## operations on vectors
+-   sum vectors
+	-   `c(1, 2, 3) + c(4, 5, 6)`
 		-   `sum()`
                 -   It calculates the sum of all elements of a vector
 	-  average of all elements in the vector
-		-   `mean()`  
-	- [https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/mean](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/mean)
+		  - `mean()` 
+			  - [https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/mean](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/mean)
         -   logical
             -   check if vector_one is greater than vector_two
                 -   `vector_one > vector_two`
-                -   it will print either TRUE or FALSE
+					-   it will print either `TRUE` or `FALSE`
 
 ## Vector selection
 -   single element
