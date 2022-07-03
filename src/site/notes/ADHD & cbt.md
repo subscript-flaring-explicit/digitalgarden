@@ -3,6 +3,8 @@
 ---
 
 
+# Adhd & CBT
+
 # Problem solving
 - The central skill involved when reaching out for help is to handle the discomfort associated with initiating contact, which is an emotional regulation skill.
 	1. As with facing other difficult tasks, a first step is ==defining in specific and behavioral terms what you need to do==, shrinking it down to its core elements
