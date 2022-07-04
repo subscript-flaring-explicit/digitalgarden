@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/same-sex-marriage-law-in-switzerland/","dgHomeLink":false,"dgPassFrontmatter":false}
+{"dg-publish":true,"dg-permalink":"ch/same-sex-marriage","permalink":"/ch/same-sex-marriage/","dgHomeLink":false,"dgPassFrontmatter":false}
 ---
 
 
