@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"programming/r","permalink":"/programming/r/","dgHomeLink":true,"dgPassFrontmatter":false}
+{"dg-publish":true,"dg-permalink":"programming/r","permalink":"/programming/r/","dgHomeLink":false,"dgPassFrontmatter":false}
 ---
 
 
