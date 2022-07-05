@@ -160,10 +160,6 @@
 ---
 
 # Other
-
--   #R 
-    -   remainder of division
-        -   modulo operator - `%%`
-            -   `28 %% 6 = 4`
+...
 
 ---
