@@ -36,8 +36,10 @@
 	-   `names()`
 		-   `names(some_vector) <- c("Name", "Profession")`
 			-   print
-				-   ```Name     Profession 
-				"John Doe" "poker player"```
+				```R
+				Name     Profession 
+				"John Doe" "poker player"
+				```
 	-   names of other vector can be also assigned to a different vector at the same time
 		-   `names(roulette_vector) <- names(poker_vector)`
 
