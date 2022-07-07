@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/cooking/skrzydelka-z-kurczaka-po-koreansku/","dgHomeLink":false,"dgPassFrontmatter":false}
+{"dg-publish":true,"dg-permalink":"cooking/skrzydelka-po-koreansku","permalink":"/cooking/skrzydelka-po-koreansku/","dgHomeLink":false,"dgPassFrontmatter":false}
 ---
 
 
