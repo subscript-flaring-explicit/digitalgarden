@@ -5282,14 +5282,101 @@ if(condition) {
 ## While loop
 - similar to if statement
 - code will be executed as long as the condition is TRUE
+	```R
+	while(condition) {
+		expression1
+	}
+	```
 
-```R
-while(condition) {
-	expression1
-}
-```
+- increment values
+	```R
+	while(ctr <= 7) {
+		print(paste("ctr is set to", ctr))
+		ctr <- ctr + 1
+	}
+	```
+
+- `break` statement
+	- breaks the loop from executing
+	```R
+	while(ctr <= 7) {
+		if(ctr %% 5 == 0) {
+			break
+		}
+		print(paste("ctr is set to", ctr))
+		ctr <- ctr + 1
+	}
+	```
+
+- example use of `break`
+	```R
+	# Initialize the speed variable
+	speed <- 88
+	
+	while (speed > 30) {
+	  print(paste("Your speed is", speed))
+	  
+	  # Break the while loop when speed exceeds 80
+	  if (speed > 80) {
+	    break
+	  }
+	  
+	  if (speed > 48) {
+	    print("Slow down big time!")
+	    speed <- speed - 11
+	  } else {
+	    print("Slow down!")
+	    speed <- speed - 6
+	  }
+	}
+	```
+
+
+
+## For loop
+- run code for every element in a "list" of elements
+	- repeats itself until all elements are iterated over
+- basic structure of for loop
+	```R
+	for(var in seq) {
+		expression
+	}
+	```
+- example of for loop
+	```R
+	cities <- c("New York", "Paris", "London", "Tokyo", "Rio de Janeiro", "Cape Town")
+	
+	for(city in cities) {
+		print(city)
+	}
+	```
+- `break` statement in a for loop
+	```R
+		cities <- c("New York", "Paris", "London", "Tokyo", "Rio de Janeiro", "Cape Town")
+		
+		for(city in cities) {
+			if(nchar(city) == 6) {
+				break
+			}
+			print(city)
+		}
+	```
+- `next` statement in a for loop
+	- skips the element that matches the condition
+	```R
+			cities <- c("New York", "Paris", "London", "Tokyo", "Rio de Janeiro", "Cape Town")
+			
+			for(city in cities) {
+				if(nchar(city) == 6) {
+					skip
+				}
+				print(city)
+			}
+	```
 
 ---
+
+
 
 
 
@@ -5344,14 +5431,101 @@ if(condition) {
 ## While loop
 - similar to if statement
 - code will be executed as long as the condition is TRUE
+	```R
+	while(condition) {
+		expression1
+	}
+	```
 
-```R
-while(condition) {
-	expression1
-}
-```
+- increment values
+	```R
+	while(ctr <= 7) {
+		print(paste("ctr is set to", ctr))
+		ctr <- ctr + 1
+	}
+	```
+
+- `break` statement
+	- breaks the loop from executing
+	```R
+	while(ctr <= 7) {
+		if(ctr %% 5 == 0) {
+			break
+		}
+		print(paste("ctr is set to", ctr))
+		ctr <- ctr + 1
+	}
+	```
+
+- example use of `break`
+	```R
+	# Initialize the speed variable
+	speed <- 88
+	
+	while (speed > 30) {
+	  print(paste("Your speed is", speed))
+	  
+	  # Break the while loop when speed exceeds 80
+	  if (speed > 80) {
+	    break
+	  }
+	  
+	  if (speed > 48) {
+	    print("Slow down big time!")
+	    speed <- speed - 11
+	  } else {
+	    print("Slow down!")
+	    speed <- speed - 6
+	  }
+	}
+	```
+
+
+
+## For loop
+- run code for every element in a "list" of elements
+	- repeats itself until all elements are iterated over
+- basic structure of for loop
+	```R
+	for(var in seq) {
+		expression
+	}
+	```
+- example of for loop
+	```R
+	cities <- c("New York", "Paris", "London", "Tokyo", "Rio de Janeiro", "Cape Town")
+	
+	for(city in cities) {
+		print(city)
+	}
+	```
+- `break` statement in a for loop
+	```R
+		cities <- c("New York", "Paris", "London", "Tokyo", "Rio de Janeiro", "Cape Town")
+		
+		for(city in cities) {
+			if(nchar(city) == 6) {
+				break
+			}
+			print(city)
+		}
+	```
+- `next` statement in a for loop
+	- skips the element that matches the condition
+	```R
+			cities <- c("New York", "Paris", "London", "Tokyo", "Rio de Janeiro", "Cape Town")
+			
+			for(city in cities) {
+				if(nchar(city) == 6) {
+					skip
+				}
+				print(city)
+			}
+	```
 
 ---
+
+
 
 
 
@@ -5406,14 +5580,101 @@ if(condition) {
 ## While loop
 - similar to if statement
 - code will be executed as long as the condition is TRUE
+	```R
+	while(condition) {
+		expression1
+	}
+	```
 
-```R
-while(condition) {
-	expression1
-}
-```
+- increment values
+	```R
+	while(ctr <= 7) {
+		print(paste("ctr is set to", ctr))
+		ctr <- ctr + 1
+	}
+	```
+
+- `break` statement
+	- breaks the loop from executing
+	```R
+	while(ctr <= 7) {
+		if(ctr %% 5 == 0) {
+			break
+		}
+		print(paste("ctr is set to", ctr))
+		ctr <- ctr + 1
+	}
+	```
+
+- example use of `break`
+	```R
+	# Initialize the speed variable
+	speed <- 88
+	
+	while (speed > 30) {
+	  print(paste("Your speed is", speed))
+	  
+	  # Break the while loop when speed exceeds 80
+	  if (speed > 80) {
+	    break
+	  }
+	  
+	  if (speed > 48) {
+	    print("Slow down big time!")
+	    speed <- speed - 11
+	  } else {
+	    print("Slow down!")
+	    speed <- speed - 6
+	  }
+	}
+	```
+
+
+
+## For loop
+- run code for every element in a "list" of elements
+	- repeats itself until all elements are iterated over
+- basic structure of for loop
+	```R
+	for(var in seq) {
+		expression
+	}
+	```
+- example of for loop
+	```R
+	cities <- c("New York", "Paris", "London", "Tokyo", "Rio de Janeiro", "Cape Town")
+	
+	for(city in cities) {
+		print(city)
+	}
+	```
+- `break` statement in a for loop
+	```R
+		cities <- c("New York", "Paris", "London", "Tokyo", "Rio de Janeiro", "Cape Town")
+		
+		for(city in cities) {
+			if(nchar(city) == 6) {
+				break
+			}
+			print(city)
+		}
+	```
+- `next` statement in a for loop
+	- skips the element that matches the condition
+	```R
+			cities <- c("New York", "Paris", "London", "Tokyo", "Rio de Janeiro", "Cape Town")
+			
+			for(city in cities) {
+				if(nchar(city) == 6) {
+					skip
+				}
+				print(city)
+			}
+	```
 
 ---
+
+
 
 
 
@@ -5468,14 +5729,101 @@ if(condition) {
 ## While loop
 - similar to if statement
 - code will be executed as long as the condition is TRUE
+	```R
+	while(condition) {
+		expression1
+	}
+	```
 
-```R
-while(condition) {
-	expression1
-}
-```
+- increment values
+	```R
+	while(ctr <= 7) {
+		print(paste("ctr is set to", ctr))
+		ctr <- ctr + 1
+	}
+	```
+
+- `break` statement
+	- breaks the loop from executing
+	```R
+	while(ctr <= 7) {
+		if(ctr %% 5 == 0) {
+			break
+		}
+		print(paste("ctr is set to", ctr))
+		ctr <- ctr + 1
+	}
+	```
+
+- example use of `break`
+	```R
+	# Initialize the speed variable
+	speed <- 88
+	
+	while (speed > 30) {
+	  print(paste("Your speed is", speed))
+	  
+	  # Break the while loop when speed exceeds 80
+	  if (speed > 80) {
+	    break
+	  }
+	  
+	  if (speed > 48) {
+	    print("Slow down big time!")
+	    speed <- speed - 11
+	  } else {
+	    print("Slow down!")
+	    speed <- speed - 6
+	  }
+	}
+	```
+
+
+
+## For loop
+- run code for every element in a "list" of elements
+	- repeats itself until all elements are iterated over
+- basic structure of for loop
+	```R
+	for(var in seq) {
+		expression
+	}
+	```
+- example of for loop
+	```R
+	cities <- c("New York", "Paris", "London", "Tokyo", "Rio de Janeiro", "Cape Town")
+	
+	for(city in cities) {
+		print(city)
+	}
+	```
+- `break` statement in a for loop
+	```R
+		cities <- c("New York", "Paris", "London", "Tokyo", "Rio de Janeiro", "Cape Town")
+		
+		for(city in cities) {
+			if(nchar(city) == 6) {
+				break
+			}
+			print(city)
+		}
+	```
+- `next` statement in a for loop
+	- skips the element that matches the condition
+	```R
+			cities <- c("New York", "Paris", "London", "Tokyo", "Rio de Janeiro", "Cape Town")
+			
+			for(city in cities) {
+				if(nchar(city) == 6) {
+					skip
+				}
+				print(city)
+			}
+	```
 
 ---
+
+
 
 
 
@@ -5530,13 +5878,100 @@ if(condition) {
 ## While loop
 - similar to if statement
 - code will be executed as long as the condition is TRUE
+	```R
+	while(condition) {
+		expression1
+	}
+	```
 
-```R
-while(condition) {
-	expression1
-}
-```
+- increment values
+	```R
+	while(ctr <= 7) {
+		print(paste("ctr is set to", ctr))
+		ctr <- ctr + 1
+	}
+	```
+
+- `break` statement
+	- breaks the loop from executing
+	```R
+	while(ctr <= 7) {
+		if(ctr %% 5 == 0) {
+			break
+		}
+		print(paste("ctr is set to", ctr))
+		ctr <- ctr + 1
+	}
+	```
+
+- example use of `break`
+	```R
+	# Initialize the speed variable
+	speed <- 88
+	
+	while (speed > 30) {
+	  print(paste("Your speed is", speed))
+	  
+	  # Break the while loop when speed exceeds 80
+	  if (speed > 80) {
+	    break
+	  }
+	  
+	  if (speed > 48) {
+	    print("Slow down big time!")
+	    speed <- speed - 11
+	  } else {
+	    print("Slow down!")
+	    speed <- speed - 6
+	  }
+	}
+	```
+
+
+
+## For loop
+- run code for every element in a "list" of elements
+	- repeats itself until all elements are iterated over
+- basic structure of for loop
+	```R
+	for(var in seq) {
+		expression
+	}
+	```
+- example of for loop
+	```R
+	cities <- c("New York", "Paris", "London", "Tokyo", "Rio de Janeiro", "Cape Town")
+	
+	for(city in cities) {
+		print(city)
+	}
+	```
+- `break` statement in a for loop
+	```R
+		cities <- c("New York", "Paris", "London", "Tokyo", "Rio de Janeiro", "Cape Town")
+		
+		for(city in cities) {
+			if(nchar(city) == 6) {
+				break
+			}
+			print(city)
+		}
+	```
+- `next` statement in a for loop
+	- skips the element that matches the condition
+	```R
+			cities <- c("New York", "Paris", "London", "Tokyo", "Rio de Janeiro", "Cape Town")
+			
+			for(city in cities) {
+				if(nchar(city) == 6) {
+					skip
+				}
+				print(city)
+			}
+	```
 
 ---
+
+
 
 
