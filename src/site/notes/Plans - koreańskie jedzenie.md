@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"plans/cooking","permalink":"/plans/cooking/","dgHomeLink":false,"dgPassFrontmatter":false}
+{"dg-publish":true,"dg-permalink":"plans/cooking2","permalink":"/plans/cooking2/","dgHomeLink":false,"dgPassFrontmatter":false}
 ---
 
 
