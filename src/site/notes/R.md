@@ -6,17 +6,17 @@
 # Variables
 
 -   assign variables `<-`
-            -   x equals 42
-                -   `x <- 42`
-        -   add variables
-            -   `x <- a + b`
-                -   a and b have to be numbers, otherwise there will be an error `non-numeric argument to binary operator`
+    -   x equals 42
+        -   `x <- 42`
+    -   add variables
+        -   `x <- a + b`
+            -   a and b have to be numbers, otherwise there will be an error `non-numeric argument to binary operator`
 -   Basic data types
         #R/datatypes
-        -   Decimal values like `4.5` are called **numerics**
-        -   Whole numbers like `4` are called **integers**. Integers are also numerics.
-        -   Boolean values ( `TRUE` or `FALSE` ) are called **logical**.
-        -   Text (or string) values are called **characters**.
+	-   Decimal values like `4.5` are called **numerics**
+	-   Whole numbers like `4` are called **integers**. Integers are also numerics.
+	-   Boolean values ( `TRUE` or `FALSE` ) are called **logical**.
+	-   Text (or string) values are called **characters**.
 
 - basic operations
 	- modulo
@@ -203,81 +203,56 @@
 
 ---
 
-# summary:
+# Summary
 
 - vectors
-
-```
-- one dimensional array
-
-- numeric, character or logical values
-```
+	- one dimensional array
+	- numeric, character or logical values
 
 - matrices
-
-```
-- two dimensional array
-
-- numeric, character or logical values
-
-- elements all have ==the same data type==.
-```
+	- two dimensional array
+	- numeric, character or logical values
+	- elements all have ==the same data type==.
 
 - data frames
-
-```
-- two-dimensional objects
-
-- numeric, character or logical values
-
-- Within a column all elements have the same data type, but different ==columns can be of different data type==.
-```
+	- two-dimensional objects
+	- numeric, character or logical values
+	- Within a column all elements have the same data type, but different ==columns can be of different data type==.
 
 ---
 
 # List
 
 - can gather variety of objects under one name
-
 - ordered way
-
 - these objects can be turnt into matrices, vectors, dataframes or even other lists
-
 - you could say it is super data type -> can store any piece of information
 
 ## creating
 
 - `list()` function
 
-```
-- \`my_list <- list(comp1, comp2)\`
-
+- `my_list <- list(comp1, comp2)`
 	- elements in the list are called its ==components==
-
 	- components can be of type \`matrices, vectors, lists, dataframe\` types
 
 - you can use custom names for the lists using vector
-```
-
-```R
-
-my_list <- list(your_comp1, your_comp2)
-
-names(my_list) <- c("name1", "name2")
-
-```
-
+	```R
+	
+	my_list <- list(your_comp1, your_comp2)
+	
+	names(my_list) <- c("name1", "name2")
+	
+	```
 
 ## creating a names list
 - `shining_list <- list(moviename = mov, actors = act, reviews = rev)`
-
 
 ## selecting elements from a list
 - use either `[[ ]]` or `$`
 	- `shining_list[["reviews"]]`
 	- `shining_list$reviews`
 		- short name (one given with [[#creating a names list]]) or full name
-
 
 ---
 
@@ -308,7 +283,6 @@ names(my_list) <- c("name1", "name2")
 	- `3 <= 5`
 		- TRUE
 
-
 ## comparison for vectors
 - comparison is made by comparing every single element to the other
 
@@ -318,10 +292,6 @@ Example
 - compare
 	- `facebook >= linkedin`
 	- `FALSE, FALSE, TRUE, TRUE`
-
-# and operator
-
-# not operator
 
 ## Logical operators
 - ⚠️logical operators can be used on vectors⚠️
@@ -495,6 +465,16 @@ if(condition) {
 for(i in 1:length(cities)) {
 	print(paste(cities[i], "is on position", i, "in the cities vector."))
 
+```
+
+## Loop over a matrix
+- also called nested loop
+```R
+for (var1 in seq1) {
+  for (var2 in seq2) {
+    expr
+  }
+}
 ```
 
 
