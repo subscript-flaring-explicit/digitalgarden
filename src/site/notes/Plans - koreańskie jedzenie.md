@@ -12,8 +12,6 @@
 - [ ] szczypiorek
 - [ ] kolendra (świeża) w lodówkach na warzywach, owocach
 
----
-
 
 <div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
 
