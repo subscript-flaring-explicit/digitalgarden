@@ -5373,7 +5373,12 @@ if(condition) {
 				print(city)
 			}
 	```
+- iterate over index
+```R
+for(i in 1:length(cities)) {
+	print(paste(cities[i], "is on position", i, "in the cities vector."))
 
+```
 ---
 
 
@@ -5522,7 +5527,12 @@ if(condition) {
 				print(city)
 			}
 	```
+- iterate over index
+```R
+for(i in 1:length(cities)) {
+	print(paste(cities[i], "is on position", i, "in the cities vector."))
 
+```
 ---
 
 
@@ -5671,7 +5681,12 @@ if(condition) {
 				print(city)
 			}
 	```
+- iterate over index
+```R
+for(i in 1:length(cities)) {
+	print(paste(cities[i], "is on position", i, "in the cities vector."))
 
+```
 ---
 
 
@@ -5820,7 +5835,12 @@ if(condition) {
 				print(city)
 			}
 	```
+- iterate over index
+```R
+for(i in 1:length(cities)) {
+	print(paste(cities[i], "is on position", i, "in the cities vector."))
 
+```
 ---
 
 
@@ -5969,7 +5989,12 @@ if(condition) {
 				print(city)
 			}
 	```
+- iterate over index
+```R
+for(i in 1:length(cities)) {
+	print(paste(cities[i], "is on position", i, "in the cities vector."))
 
+```
 ---
 
 
