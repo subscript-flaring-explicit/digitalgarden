@@ -5374,11 +5374,15 @@ if(condition) {
 			}
 	```
 - iterate over index
+	- ⚠️when looping over a list you need a double square brackets⚠️
+		- `print(primes_list[[i]])`
 ```R
 for(i in 1:length(cities)) {
 	print(paste(cities[i], "is on position", i, "in the cities vector."))
 
 ```
+
+
 ---
 
 
@@ -5528,11 +5532,15 @@ if(condition) {
 			}
 	```
 - iterate over index
+	- ⚠️when looping over a list you need a double square brackets⚠️
+		- `print(primes_list[[i]])`
 ```R
 for(i in 1:length(cities)) {
 	print(paste(cities[i], "is on position", i, "in the cities vector."))
 
 ```
+
+
 ---
 
 
@@ -5682,11 +5690,15 @@ if(condition) {
 			}
 	```
 - iterate over index
+	- ⚠️when looping over a list you need a double square brackets⚠️
+		- `print(primes_list[[i]])`
 ```R
 for(i in 1:length(cities)) {
 	print(paste(cities[i], "is on position", i, "in the cities vector."))
 
 ```
+
+
 ---
 
 
@@ -5836,11 +5848,15 @@ if(condition) {
 			}
 	```
 - iterate over index
+	- ⚠️when looping over a list you need a double square brackets⚠️
+		- `print(primes_list[[i]])`
 ```R
 for(i in 1:length(cities)) {
 	print(paste(cities[i], "is on position", i, "in the cities vector."))
 
 ```
+
+
 ---
 
 
@@ -5990,11 +6006,15 @@ if(condition) {
 			}
 	```
 - iterate over index
+	- ⚠️when looping over a list you need a double square brackets⚠️
+		- `print(primes_list[[i]])`
 ```R
 for(i in 1:length(cities)) {
 	print(paste(cities[i], "is on position", i, "in the cities vector."))
 
 ```
+
+
 ---
 
 
