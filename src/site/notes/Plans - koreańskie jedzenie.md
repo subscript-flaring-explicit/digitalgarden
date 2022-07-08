@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"plans/cooking2","permalink":"/plans/cooking2/","dgHomeLink":false,"dgPassFrontmatter":false}
+{"dg-publish":true,"dg-permalink":"plans/cooking","permalink":"/plans/cooking/","dgHomeLink":false,"dgPassFrontmatter":false}
 ---
 
 
@@ -11,8 +11,6 @@
 - [ ] cebula dymka
 - [ ] szczypiorek
 - [ ] kolendra (świeża) w lodówkach na warzywach, owocach
-
-test
 
 
 <div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
