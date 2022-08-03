@@ -62,6 +62,7 @@
 		- less prone to odd and ocd
 		- more prone to anxiety
 		- risk for depression is the same
+	- adhd causes more problems
 
 
 
