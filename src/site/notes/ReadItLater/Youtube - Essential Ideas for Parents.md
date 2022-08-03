@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"adhd/essential-ideas","permalink":"/adhd/essential-ideas/","dgHomeLink":false,"dgPassFrontmatter":false}
+{"dg-publish":true,"dg-permalink":"lecture/adhd/essential-ideas","permalink":"/lecture/adhd/essential-ideas/","dgHomeLink":false,"dgPassFrontmatter":false}
 ---
 
 
