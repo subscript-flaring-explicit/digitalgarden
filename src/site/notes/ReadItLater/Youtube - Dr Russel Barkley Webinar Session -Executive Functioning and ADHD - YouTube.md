@@ -15,6 +15,8 @@
 - working memory
 - organisation
 - planning
+- The supposedly “cool” EF brain networks, such as working memory, planning, problem solving, and foresight, may provide for the “what, where, and when” of goal-directed action, but it is the “hot” EF brain network (Castellanos et al., 2006; Nigg & Casey, 2005) that provides the “why” or basis for choosing to pursue that goal in the first place and the motivation that will be needed to get there.
+
 
 # frontal-cerebellar circuit
 - "when" network
