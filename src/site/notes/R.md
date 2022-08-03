@@ -185,6 +185,37 @@
 			- `subset(planets_df, subset = rings)`
 			- `subset(planets_df, subset = diameter < 1)`
 
+## create dataframe from file
+
+### CSV to dataframe
+1. Set or change the working directory
+	- `getwd()`
+		- returns an absolute file-path representing the current working directory of the R process
+	- `setwd(dir)`
+		- set the working directory to `dir`
+2. Read the CSV file
+	- `read.csv(file, header = TRUE, sep = “,”, quote = “\””, dec = “.”, fill = TRUE, comment.char = “”, …)`
+		-   _**file:**_ the name of the file which the data are to be read from. (includes file format `.csv`)
+		-   _**header:**_ a logical value indicating whether the file contains the names of the variables as its first line. If missing, the value is determined from the file format: header is set to TRUE if and only if the first row contains one fewer field than the number of columns.
+		-   _**sep:**_ the field separator character. Values on each line of the file are separated by this character. If sep = “” (the default for read.table) the separator is ‘white space’, that is one or more spaces, tabs, newlines or carriage returns.
+		-   _**quote:**_ the set of quoting characters.
+		-   _**dec:**_ the character used in the file for decimal points.
+		-   _**fill:**_ logical. If TRUE then in case the rows have unequal length, blank fields are implicitly added.
+		-   _**comment.char:**_ character: a character vector of length one containing a single character or an empty string.
+		-   _**… :**_  Further arguments to be passed.
+	- example
+		```R
+		sdata <- read.csv("SampleData.csv", header = TRUE, sep = ",")
+		```
+	- useful commands
+
+#### useful functions
+- `View(dataframe)`
+	- view dataframe formed with .csv file
+- ``subset()`
+	- `subset(sdata, sdata$speed == max(sdata$speed))`
+		- 
+
 
 ## Select columns
 - `planets_df$diameter` - select `diameter` column in `planets_df`
@@ -477,9 +508,86 @@ for (var1 in seq1) {
 }
 ```
 
+- given a matrix `ttt`
+	- iterate over rows with `1:nrow(ttt)`
+	- iterate over columns with `1:ncol(ttt)`
+
+- print content and position of every cell in a matrix
+```R
+# define the double for loop
+for (x in 1:nrow(ttt)) {
+  for (y in 1:ncol(ttt)) {
+    print(paste("On row", x, "and column", y, "the board contains", ttt[x,y]))
+  }
+}
+```
 
 ---
 
+# Functions
 
+- ## docs on function
+	- `help(function_name)`
+	- `?function_name`
+
+- args()
+	- tells me what arguments a function wants, what values are default
+
+- black box principle
+	- input -> black box -> output
+	- c(1,5,6,7) -> sd() -> 2.629956
+
+## assign function
+- functions are assigned the same way variables are in R
+	- `sd_of_sample <- sd(sample)`
+
+## [`strsplit()`](https://www.rdocumentation.org/packages/base/functions/strsplit) function
+- split up into a vector that contains separate letters
+
+## `sd(x, na.rm = FALSE)`
+- argument matching
+- `na.rm`
+	- should N/A values be removed?
+	- logical value
+		- TRUE/FALSE
+
+## list() function
+
+## print() function
+
+## mean(x, trim, na.rm) function
+- average of `x`
+	- you can calculate average element-wise for two or more vectors using `x = vector1 + vector2`
+- `trim`
+	- it chops off a fraction (equal to `trim`) of the vector you pass as argument `x`
+
+- `abs(x)` function
+	- absolute value of `x`
+
+# Functions inside functions
+
+- basic example
+	```R
+	speed <- 31
+	print(paste("Your speed is", speed))
+	```
+
+
+# Writing your own functions
+
+- example - in `arg1`, `arg2` out - `return` or last value
+```R
+my_fun <- function(arg1, arg2) {
+	body
+}
+```
+
+- example 2 - `return` keyword
+```R
+triple <- function(x) {
+	y <- 3*x
+	return(y)
+}
+```
 
 
