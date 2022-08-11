@@ -7,7 +7,7 @@
 
 # [Lecture 2: From Soviet Communism to Russian Gangster Capitalism](https://www.youtube.com/watch?v=f5nbT4xQqwI)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/f5nbT4xQqwI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="20vh" src="https://www.youtube.com/embed/f5nbT4xQqwI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Lecture: Collapse of soviet union
 
