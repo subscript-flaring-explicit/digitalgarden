@@ -13,14 +13,14 @@
 
 
 - final days of soviet union
-	- may 12, 1990
+	- 12/05/1990
 		- baltic enatente signed
 	- 12/06/1990
 		- In June of that year the Congress of People's Deputies in Russia, that is where Yeltsin was run initially as a deputy and then become president, declared that it was sovereign over Russia's territory.
-	- march 17, 1991
+	- 17/03/1991
 		- refereundum whether to say in soviet union
 		- there were boycotts from the Baltics and four or five other Soviet republics
-	- june 12, 1991
+	- 12/06/1991
 		- boris yeltsin elected president
 	- 20/12/1991
 		- leaders of the 11 remaining republic met in Alma Ata, now know as Almaty, in Kazakhstan to essentially declare the Soviet Union dead and constitute the CIS, the Confederation of Independent States. At that point Gorbachev realized he had no choice,
