@@ -4,7 +4,7 @@
 
 
 ---
-# TOC
+# Table of contents
 
 - [[Commodities#Aluminium|#Aluminium]]
 	- [[Commodities#Aluminium|#Aluminium#Consumption]]
@@ -24,9 +24,7 @@
 		- [[Commodities#Copper|#Copper#Production#Refining]]
 		- [[Commodities#Copper|#Copper#Production#Stocks]]
 
-```toc
-```
-
+---
 
 # Aluminium
 
