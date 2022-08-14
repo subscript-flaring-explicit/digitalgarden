@@ -7,24 +7,26 @@
 # TOC
 
 - [[Commodities#Aluminium|#Aluminium]]
-	- [[Commodities#Consumption|#Consumption]]
-		- [[Commodities#Uses|#Uses]]
-	- [[Commodities#Production|#Production]]
-		- [[Commodities#Bauxite|#Bauxite]]
+	- [[Commodities#Aluminium|#Aluminium#Consumption]]
+		- [[Commodities#Aluminium|#Aluminium#Consumption#Uses]]
+	- [[Commodities#Aluminium|#Aluminium#Production]]
+		- [[Commodities#Aluminium|#Aluminium#Production#Bauxite]]
 
 - [[Commodities#Copper|#Copper]]
-	- [[Commodities#Consumption and trade|#Consumption and trade]]
-		- [[Commodities#Uses|#Uses]]
-		- [[Commodities#Consumption|#Consumption]]
-		- [[Commodities#Trade|#Trade]]
-			- [[Commodities#Markets|#Markets]]
-	- [[Commodities#Production|#Production]]
-		- [[Commodities#Reserves|#Reserves]]
-		- [[Commodities#Mining|#Mining]]
-		- [[Commodities#Refining|#Refining]]
-		- [[Commodities#Stocks|#Stocks]]
+	- [[Commodities#Copper|#Copper#Consumption and trade]]
+		- [[Commodities#Copper|#Copper#Consumption and trade#Uses]]
+		- [[Commodities#Copper|#Copper#Consumption and trade#Consumption]]
+		- [[Commodities#Copper|#Copper#Consumption and trade#Trade]]
+			- [[Commodities#Copper|#Copper#Consumption and trade#Trade#Markets]]
+	- [[Commodities#Copper|#Copper#Production]]
+		- [[Commodities#Copper|#Copper#Production#Reserves]]
+		- [[Commodities#Copper|#Copper#Production#Mining]]
+		- [[Commodities#Copper|#Copper#Production#Refining]]
+		- [[Commodities#Copper|#Copper#Production#Stocks]]
 
----
+```toc
+```
+
 
 # Aluminium
 
@@ -321,6 +323,7 @@ It has a wide range of end-uses in, for example, the electronics industry, trans
 		</tr>
 	</tbody>
 </table>
+
 
 
 
