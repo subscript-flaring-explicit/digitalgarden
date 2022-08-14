@@ -22,7 +22,7 @@
 
 - US
 
-	- Annotations - Saffer and Dave, “Alcohol Advertising and Alcohol Consumption by Adolescents.”
+	- [Annotations - Saffer and Dave, “Alcohol Advertising and Alcohol Consumption by Adolescents.”](https://gr00stl.myeu.cloud/index.php/s/sBYSYnaNB3AZL53)
 	
 		- “Price and advertising effects are generally larger for females relative to males” 
 		
@@ -38,7 +38,7 @@
 
 - EU
 
-	- Annotations - de Bruijn et al., “European Longitudinal Study on the Relationship between Adolescents’ Alcohol Marketing Exposure and Alcohol Use.”
+	- [Annotations - de Bruijn et al., “European Longitudinal Study on the Relationship between Adolescents’ Alcohol Marketing Exposure and Alcohol Use.”](https://gr00stl.myeu.cloud/index.php/s/m6xa9D7LZiFm3HW)
 	
 		- “School-based sample in 181 state-funded schools in Germany, Italy, Netherlands, Poland.” 
 		
