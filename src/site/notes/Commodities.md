@@ -3,6 +3,29 @@
 ---
 
 
+---
+# TOC
+
+- [[Commodities#Aluminium|#Aluminium]]
+	- [[Commodities#Consumption|#Consumption]]
+		- [[Commodities#Uses|#Uses]]
+	- [[Commodities#Production|#Production]]
+		- [[Commodities#Bauxite|#Bauxite]]
+
+- [[Commodities#Copper|#Copper]]
+	- [[Commodities#Consumption and trade|#Consumption and trade]]
+		- [[Commodities#Uses|#Uses]]
+		- [[Commodities#Consumption|#Consumption]]
+		- [[Commodities#Trade|#Trade]]
+			- [[Commodities#Markets|#Markets]]
+	- [[Commodities#Production|#Production]]
+		- [[Commodities#Reserves|#Reserves]]
+		- [[Commodities#Mining|#Mining]]
+		- [[Commodities#Refining|#Refining]]
+		- [[Commodities#Stocks|#Stocks]]
+
+---
+
 # Aluminium
 
 
